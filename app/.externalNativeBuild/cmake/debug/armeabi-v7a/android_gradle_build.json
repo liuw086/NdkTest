@@ -1,0 +1,68 @@
+
+{
+	"buildFiles" : [ "/home/liuwei/code/xiaomi/NdkTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gnustl_shared-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "gnustl_shared",
+			"buildType" : "debug",
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/jniLibs/armeabi-v7a/libgnustl_shared.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"kqueue-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "kqueue",
+			"buildType" : "debug",
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/jniLibs/armeabi-v7a/libkqueue.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/liuwei/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/liuwei/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../inc -I../../../../src/main/cpp -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/liuwei/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/cpp/milive_agent_jni.cpp",
+					"workingDirectory" : "/home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/liuwei/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/liuwei/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../inc -I../../../../src/main/cpp -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/liuwei/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"p2pengine-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "p2pengine",
+			"buildType" : "debug",
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/jniLibs/armeabi-v7a/libp2pengine.so",
+			"toolchain" : "2638749720308825609"
+		}
+	},
+	"toolchains" : 
+	{
+		"2638749720308825609" : 
+		{
+			"cCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

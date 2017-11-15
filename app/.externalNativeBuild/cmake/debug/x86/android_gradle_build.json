@@ -1,0 +1,62 @@
+
+{
+	"buildFiles" : [ "/home/liuwei/code/xiaomi/NdkTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gnustl_shared-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "gnustl_shared",
+			"buildType" : "debug",
+			"output" : "./libs/libgnustl_shared.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"kqueue-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "kqueue",
+			"buildType" : "debug",
+			"output" : "./libs/libkqueue.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"native-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/liuwei/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/liuwei/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../inc -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/liuwei/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"p2pengine-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "p2pengine",
+			"buildType" : "debug",
+			"output" : "./libs/libp2pengine.so",
+			"toolchain" : "2638749720308825609"
+		}
+	},
+	"toolchains" : 
+	{
+		"2638749720308825609" : 
+		{
+			"cCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

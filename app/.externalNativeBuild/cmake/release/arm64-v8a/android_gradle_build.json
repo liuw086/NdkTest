@@ -1,0 +1,62 @@
+
+{
+	"buildFiles" : [ "/home/liuwei/code/xiaomi/NdkTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gnustl_shared-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "gnustl_shared",
+			"buildType" : "release",
+			"output" : "./libs/libgnustl_shared.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"kqueue-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "kqueue",
+			"buildType" : "release",
+			"output" : "./libs/libkqueue.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/liuwei/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/liuwei/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../inc -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/liuwei/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"p2pengine-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "p2pengine",
+			"buildType" : "release",
+			"output" : "./libs/libp2pengine.so",
+			"toolchain" : "2638749720308825609"
+		}
+	},
+	"toolchains" : 
+	{
+		"2638749720308825609" : 
+		{
+			"cCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

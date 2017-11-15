@@ -1,0 +1,62 @@
+
+{
+	"buildFiles" : [ "/home/liuwei/code/xiaomi/NdkTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gnustl_shared-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "gnustl_shared",
+			"buildType" : "release",
+			"output" : "./libs/libgnustl_shared.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"kqueue-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "kqueue",
+			"buildType" : "release",
+			"output" : "./libs/libkqueue.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/liuwei/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/liuwei/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/liuwei/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../inc -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/liuwei/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/liuwei/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/liuwei/code/xiaomi/NdkTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/liuwei/code/xiaomi/NdkTest/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/liuwei/code/xiaomi/NdkTest/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "2638749720308825609"
+		},
+		"p2pengine-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "p2pengine",
+			"buildType" : "release",
+			"output" : "./libs/libp2pengine.so",
+			"toolchain" : "2638749720308825609"
+		}
+	},
+	"toolchains" : 
+	{
+		"2638749720308825609" : 
+		{
+			"cCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/liuwei/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
